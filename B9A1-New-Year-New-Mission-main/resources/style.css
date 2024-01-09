@@ -181,9 +181,11 @@ body {
     line-height: 56px;
     text-transform: capitalize;
 }
-span{
+
+span {
     color: #F00;
 }
+
 .container3-btn {
     border-radius: 8px;
     background: #F00;
@@ -203,4 +205,122 @@ button {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+/*container4 style*/
+
+.container4-heading h4 {
+    margin-top: 50px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container4-heading h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.container4-heading p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 900px;
+}
+
+#featured {
+    padding: 100px auto;
+}
+
+.section-container4-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    row-gap:
+}
+
+.section-container4-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.image {
+    border-radius: 16px;
+    width: 60%;
+    padding: 10px 150px;
+}
+
+/*last section style*/
+
+.last-section {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.last-section email {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.subscribe {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.para {
+    margin: 0 auto;
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.form {
+    margin: 0 auto;
+}
+
+button {
+    width: 105px;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.A{
+    width: 105px;
+    height: 45px;
+    text-align: center;
 }

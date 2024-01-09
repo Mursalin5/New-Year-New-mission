@@ -265,6 +265,7 @@ button {
 /*last section style*/
 
 .last-section {
+    margin-top: 50px;
     text-align: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -319,8 +320,43 @@ button {
     line-height: normal;
     text-transform: capitalize;
 }
-.A{
+
+.A {
     width: 105px;
     height: 45px;
     text-align: center;
 }
+
+/* footer style*/
+.footer {
+    margin-top: 80px;
+    padding: 140px 140px 140px 140px;
+    background-color: black;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+
+}
+
+.footer-text {
+    justify-content: space-between;
+
+}
+
+.footer-img {
+    text-align: center;
+
+}
+
+.footer-p {
+    display: flex;
+    justify-content: space-between;
+}
+/* sir tana 48 hour modde ghum 6 hour just .
+ar without khabar time eeta korlam tao kono rokome ,mon motho korte pari nai onek try korchi"
+ih sha allah er porer ta aro valo korbo
+thank you sir*/

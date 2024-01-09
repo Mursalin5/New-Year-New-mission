@@ -34,14 +34,15 @@ body {
 
 .header {
     background-image: url('../resources/Banner-Image.png');
-    border-radius: 16px;
+    border-radius: 40px;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: Merriweather;
     text-align: center;
-    padding: 100px 0px;
-    width: 2100px;
-    height: 550px;
+    padding: 80px 0px;
+    width: 2260px;
+    height: 700px;
 }
 
 .header-text1 {
@@ -62,7 +63,7 @@ body {
     line-height: 95px;
 }
 
-/* main part section-1 style design*/
+/* main part section-1 style */
 
 .container1 {
     background-color: #FFf;
@@ -97,8 +98,65 @@ body {
 
 .container1-img {
     fill: url(../resources/New\ Year\ Photo.png), lightgray 50% / cover no-repeat;
-    margin-left: 700px;
+    margin-left: 700PX;
+
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
+}
+
+/*container2 style css*/
+
+
+
+.container2 {
+    display: flex;
+    border-radius: 0px;
+    padding-left: 126px;
+    width: 2100px;
+    height: 800px;
+    flex-shrink: 0;
+    background-image: url('../resources/Vectorrr.png');
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    font-family: Merriweather;
+}
+
+.container2-h {
+    margin-top: 126px;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.container2-p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container2-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #130530;
+    border: none;
+}
+
+.container2-img {
+    width: 319.83px;
+    height: 464.662px;
+    padding: 100px 200px;
 }

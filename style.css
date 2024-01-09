@@ -97,7 +97,7 @@ body {
 }
 
 .container1-img {
-    fill: url(../New-Year-New-mission/imges/New\ Year\ Photo\ -\ Copy.png), lightgray 50% / cover no-repeat;
+    background-image: url('../New-Year-New-mission/imges/New\ Year\ Photo\ -\ Copy.png')
     margin-left: 700PX;
 
     width: 802.9px;
